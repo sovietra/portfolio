@@ -223,7 +223,6 @@
 
     <!-- custom js -->
     <script src="script.js"></script>
-    <script src="cursor.js"></script>
 </body>
 
 </html>
