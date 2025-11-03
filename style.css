@@ -12,9 +12,9 @@
 }
 
 :root {
-    --bg-color: #fdfdfd;
+    --bg-color: #f1eae2;
     --text-color: #333;
-    --main-color: #EFC4D5;
+    --main-color: #647C64;
     --white-color: #fdfdfd;
     --shadow-color: rgba(0, 0, 0, .2);
 }
@@ -26,14 +26,22 @@
 
 .dark-mode {
     --bg-color: #242424;
-    --text-color: #fdfdfd;
+    --text-color: #758775;
     --shadow-color: rgba(0, 0, 0, .7);
 }
 
 html {
     font-size: 62.5%;
     overflow-x: hidden;
-}
+    }
+
+.html {
+    transform: scale(1.25);
+    transform-origin: top left; /* prevent centering */
+     width: 80%; /* prevent horizontal scrollbar */
+    }
+
+
 
 body {
     background: var(--bg-color);
